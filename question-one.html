@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-<!-- <style>
- #PIC1{
+<style>
+ #cat1{
+  display: none;
+ }
+ #cat2{
+  display: none;
+ }
+ #person{
+  display: none;
+ }
+ #cat4{
   display: none;
  }
 </style> 
- -->
+
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 <link rel="stylesheet" type="text/css" href="main.css" />
@@ -35,26 +44,19 @@ Enter your name here, this is what appears in the tab label on a browser.
 <p></p>
 
 
-
- <img id="PIC1" src = "">
- <!-- <img id="PIC2">
- <img id="PIC3">
- <img id="PIC4"> 
- -->
+ <img id="cat1" src = "cat.jpg" alt="some love">
+ <img id="cat2">
+ <img id="person">
+ <img id="cat4"> 
+ 
   <button type="button" onclick="show()" id="btnID">Reveal the pictures!</button>
  <script> 
   function show(){
-   let image = document.getElementById("PIC1");
-   image.src = "cat.jpg";
+   document.getElementById("cat1").style.display = "block";
    document.getElementById("btnID").style.display = "none";
   }        
  </script> 
 
-    
-   <!-- <img src="PIC SINJA" alt="SOMETHING">
- <img src="RANDOM CAT PIC" alt="love">
- <img src="RANDOM CAT PIC" alt="some more love">
- <img src="RANDOM CAT" alt="& a bit more here"> -->
  
 
 <h2>
