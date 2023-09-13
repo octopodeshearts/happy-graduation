@@ -28,13 +28,23 @@ Enter your name here, this is what appears in the tab label on a browser.
 
 <!-- button to click reveal -->
 
- <p>Reveal the pictures!</p>
+ <button onclick="RevealPics()">Reveal the pictures!</button>
 
- <!-- <img src="PIC SINJA" alt="SOMETHING">
+ <img id="PIC1">
+ <img id="PIC2">
+ <img id="PIC3">
+ <img id="PIC4">
+ 
+ <script> 
+  function RevealPics(){
+   document.getElementById("PIC1").src = "cats.jpg";
+   document.getElementById("PIC1").alt = "SOMETHING";
+   <!-- <img src="PIC SINJA" alt="SOMETHING">
  <img src="RANDOM CAT PIC" alt="love">
  <img src="RANDOM CAT PIC" alt="some more love">
- <img src="RANDOM CAT" alt="& a bit more here">
- --> 
+ <img src="RANDOM CAT" alt="& a bit more here"> -->
+    }
+ </script> 
 
 <h2>
 <a href="https://octopodeshearts.github.io/happy-graduation.github.io/question-two.html">NEXT QUESTION!</a> <br>
