@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
+<style>
+ #PIC1{
+  display: none;
+ }
+</style>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 <link rel="stylesheet" type="text/css" href="main.css" />
@@ -30,15 +35,17 @@ Enter your name here, this is what appears in the tab label on a browser.
 
  <button onclick="RevealPics()">Reveal the pictures!</button>
 
- <img id="PIC1">
- <img id="PIC2">
+ <img id="PIC1" src = "cat.jpg">
+ <! -- <img id="PIC2">
  <img id="PIC3">
- <img id="PIC4">
+ <img id="PIC4"> -->
  
  <script> 
   function RevealPics(){
-   document.getElementById("PIC1").src = "cat.jpg";
-   document.getElementById("PIC1").alt = "SOMETHING";
+   document.getElementById("PIC1").style.display = "block";
+   
+
+    
    <!-- <img src="PIC SINJA" alt="SOMETHING">
  <img src="RANDOM CAT PIC" alt="love">
  <img src="RANDOM CAT PIC" alt="some more love">
