@@ -67,12 +67,22 @@ Enter your name here, this is what appears in the tab label on a browser.
 <p></p>
 
 <button type="button" onclick="show()" id="btnID">Reveal the pictures!</button>
- 
-<img id="cat1" src = "cat.jpg" alt="some love" >
-<img id="cat2" src = "cat2.jpg" alt = "more love!">
-<img id="person">
-<img id="cat3" src= "cat3.jpg" alt="some more!"> 
- 
+<div class="row">
+ <div class="column">
+  <img id="cat1" src = "cat.jpg" alt="some love" >
+ </div>
+ <div class="column">
+  <img id="cat2" src = "cat2.jpg" alt = "more love!">
+ </div>
+</div>
+<div class="row">
+ <div class="column">
+  <img id="person">
+ </div>
+ <div class="column">
+  <img id="cat3" src= "cat3.jpg" alt="some more!"> 
+ </div>
+</div> 
   
 <script> 
   function show(){
