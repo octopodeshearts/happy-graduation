@@ -41,11 +41,12 @@ Enter your name here, this is what appears in the tab label on a browser.
  <img id="PIC3">
  <img id="PIC4"> 
  -->
-  <button type="button" onclick="RevealPics()">Reveal the pictures!</button>
+  <button type="button" onclick="RevealPics()" id="btnID">Reveal the pictures!</button>
  <script> 
   function RevealPics(){
-   let image = document.getElementById('PIC1');
+   let image = document.getElementById("PIC1");
    image.src = "cat.jpg";
+   document.getElementById("btnID").style.display = "none";
   }   
 
     
