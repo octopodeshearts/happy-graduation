@@ -15,7 +15,9 @@
  #person{
   display: none;
  }
- #cat4{
+ #cat3{
+  width: 250px;
+  height: 250px;
   display: none;
  }
 </style> 
@@ -50,12 +52,14 @@ Enter your name here, this is what appears in the tab label on a browser.
  <img id="cat1" src = "cat.jpg" alt="some love" >
  <img id="cat2" src = "cat2.jpg" alt = "more love!">
  <img id="person">
- <img id="cat4"> 
+ <img id="cat3" src= "cat3.jpg" alt="some more!"> 
  
   <button type="button" onclick="show()" id="btnID">Reveal the pictures!</button>
  <script> 
   function show(){
    document.getElementById("cat1").style.display = "block";
+   document.getElementById("cat2").style.display = "block";
+   document.getElementById("cat3").style.display = "block";
    document.getElementById("btnID").style.display = "none";
   }        
  </script> 
