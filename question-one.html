@@ -36,7 +36,7 @@ Enter your name here, this is what appears in the tab label on a browser.
 
  <button type="button" onclick="RevealPics()">Reveal the pictures!</button>
 
- <img id="PIC1" src = "cat.jpg">
+ <img id="PIC1" src = "">
  <!-- <img id="PIC2">
  <img id="PIC3">
  <img id="PIC4"> 
@@ -44,15 +44,16 @@ Enter your name here, this is what appears in the tab label on a browser.
  
  <script> 
   function RevealPics(){
-   document.getElementById('PIC1').style.display = "block";
-   
+   let image = document.getElementById('PIC1');
+   image.src = "cat.jpg";
+  }   
 
     
    <!-- <img src="PIC SINJA" alt="SOMETHING">
  <img src="RANDOM CAT PIC" alt="love">
  <img src="RANDOM CAT PIC" alt="some more love">
  <img src="RANDOM CAT" alt="& a bit more here"> -->
-    }
+    
  </script> 
 
 <h2>
