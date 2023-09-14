@@ -20,7 +20,6 @@
   height: 250px;
   display: none;
  }
- 
  * {
   box-sizing: border-box;
  }
@@ -36,6 +35,18 @@
   content: "";
   clear: both;
   display: table;
+}
+
+
+#btnID {
+ border-radius: 10px;
+ background-color: #7fb1bf;
+ margin: 9px;
+	position: relative;
+	border: 0;
+	padding: 15px 25px;
+	display: inline-block;
+	text-align: center;
 }
 </style> 
 
@@ -66,7 +77,7 @@ Enter your name here, this is what appears in the tab label on a browser.
 
 <p></p>
 
-<button class"btn blue rounded" type="button" onclick="show()" id="btnID">Reveal the pictures!</button>
+<button type="button" onclick="show()" id="btnID">Reveal the pictures!</button>
 <div class="row">
  <div class="column">
   <img id="cat1" src = "cat.jpg" alt="some love" >
