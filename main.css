@@ -47,6 +47,32 @@ h4{
 }
 
 
+<!-- for buttons -->
+.rounded {
+  border-radius: 10px;
+}
+.btn.blue {
+  background-color: #7fb1bf;
+}
+
+a[class*="btn"] {text-decoration: none;}
+input[class*="btn"], 
+button[class*="btn"] {border: 0;}
+
+.btn {
+  margin: 9px;
+	position: relative;
+	border: 0;
+	padding: 15px 25px;
+	display: inline-block;
+	text-align: center;
+	color: white;
+}
+.btn:active {
+	top: 4px;	
+}
+
+
 a, a:visited {
   color: #000;
   text-decoration: none;
