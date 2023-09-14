@@ -1,6 +1,56 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
+ <style>
+ #cat1{
+  width: 250px;
+  height: 250px;
+  display: none;
+ }
+ #cat2{
+  width: 250px;
+  height: 250px;
+  display: none;
+ }
+ #person{
+  display: none;
+ }
+ #cat3{
+  width: 250px;
+  height: 250px;
+  display: none;
+ }
+ * {
+  box-sizing: border-box;
+ }
+ 
+ .column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+#btnID {
+ border-radius: 10px;
+ color: white;
+ background-color: #7fb1bf;
+ margin: 9px;
+ position: relative;
+ border: 0;
+ padding: 15px 25px;
+ display: inline-block;
+ text-align: center;
+}
+</style> 
+ 
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 <link rel="stylesheet" type="text/css" href="main.css" />
@@ -26,16 +76,35 @@ Enter your name here, this is what appears in the tab label on a browser.
   <source src="test audio.mp3" type="audio/mpeg">
 </audio>
 
-<!-- button to click reveal -->
+<p></p>
 
- <p>Reveal the pictures!</p>
-
- <!-- <img src="PIC SUNNY" alt="SOMETHING">
- <img src="RANDOM CAT PIC" alt="love">
- <img src="RANDOM CAT PIC" alt="some more love">
- <img src="RANDOM CAT" alt="& a bit more here">
- --> 
-
+<button type="button" onclick="show()" id="btnID">Reveal the pictures!</button>
+<div class="row">
+ <div class="column">
+  <img id="cat1" src = "cat.jpg" alt="some love" >
+ </div>
+ <div class="column">
+  <img id="cat2" src = "cat2.jpg" alt = "more love!">
+ </div>
+</div>
+<div class="row">
+ <div class="column">
+  <img id="person">
+ </div>
+ <div class="column">
+  <img id="cat3" src= "cat3.jpg" alt="some more!"> 
+ </div>
+</div> 
+  
+<script> 
+  function show(){
+   document.getElementById("cat1").style.display = "block";
+   document.getElementById("cat2").style.display = "block";
+   document.getElementById("cat3").style.display = "block";
+   document.getElementById("btnID").style.display = "none";
+  }        
+</script> 
+ 
 <h2>
 <a href="https://octopodeshearts.github.io/happy-graduation.github.io/question-four.html">& ANOTHER?</a> <br>
 </h2>
