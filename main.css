@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 html{
   background-color: #eee;
@@ -8,14 +9,14 @@ html{
 
 body{
   margin: 0;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Rale', sans-serif;
   font-size: 16px;
   color: #111;
   background-color: #eee;
 }
 
 h1, h2, h3{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1{
