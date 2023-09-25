@@ -74,22 +74,20 @@ button[class*="btn"] {border: 0;}
 }
 
 .border-style-incorrect{
-	margin: 5px;
+	margin: 10px;
 }
 
 .border-style-incorrect:focus {
-	border: 2px;
-	color: #f7cb82;
+	border: 2px solid #f7cb82;
 	padding: 5px;
 }
 
 .border-style-correct{
-	margin: 5px;
+	margin: 10px;
 }
 
 .border-style-correct:focus {
-	border: 2px;
-	color: #7fb1bf;
+	border: 2px solid #7fb1bf;
 	padding: 5px;
 }
 
