@@ -73,6 +73,26 @@ button[class*="btn"] {border: 0;}
 	top: 4px;	
 }
 
+.border-style-incorrect{
+	margin: 5px;
+}
+
+.border-style-incorrect:focus {
+	border: 2px;
+	color: #f7cb82;
+	padding: 5px;
+}
+
+.border-style-correct{
+	margin: 5px;
+}
+
+.border-style-correct:focus {
+	border: 2px;
+	color: #7fb1bf;
+	padding: 5px;
+}
+
 
 a, a:visited {
   color: #000;
