@@ -30,6 +30,10 @@ h1{
 
 }
 
+h2{
+  text-align: right;
+}
+
 h3{
   text-transform: uppercase;
   font-weight: 900;
