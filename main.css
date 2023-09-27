@@ -87,6 +87,12 @@ img:focus{
 
 }
 
+.that-image:focus{
+	border: 2px solid #7fb1bf;
+	padding: 5px;
+}
+
+
 .flex-container {
   display: flex;
   justify-content: center;
