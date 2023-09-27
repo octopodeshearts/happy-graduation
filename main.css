@@ -81,7 +81,7 @@ img{
 	margin: 10px
 }
 
-img:focus{
+.this-image:focus{
 	border: 2px solid #f7cb82;
 	padding: 5px;
 
