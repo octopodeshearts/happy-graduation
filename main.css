@@ -23,7 +23,7 @@ h1{
   text-transform: uppercase;
   font-weight: 900;
   font-size: 3em;
-  align: right;
+  text-align: right;
   color: #333;
   padding: 0em;
   margin-bottom: 2em;
