@@ -89,13 +89,6 @@ img:focus{
   flex-direction: row;
 }
 
-/* Responsive layout - makes a one column layout instead of a two-column layout */
-@media (max-width: 800px) {
-  .flex-container {
-    flex-direction: column;
-  }
-}
-
 a, a:visited {
   color: #000;
   text-decoration: none;
@@ -187,4 +180,8 @@ a > .fab, a > .fas{
         .bioTitle{
           display: block;
         }
-    }
+
+	.flex-container {
+    	  flex-direction: column;
+	}
+}
