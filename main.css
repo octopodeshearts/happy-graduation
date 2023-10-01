@@ -103,6 +103,18 @@ img{
   flex-direction: row;
 }
 
+.flexy-left {
+  padding: 10px;
+  text-align: left;
+  flex: 50%;
+}
+
+.flexy-right {
+  padding: 10px;
+  text-align: right;
+  flex: 50%;
+}
+
 a, a:visited {
   color: #000;
   text-decoration: none;
