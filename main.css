@@ -98,6 +98,11 @@ img{
   flex-direction: row;
 }
 
+.flexy{
+  display: flex;
+  flex-direction: row;
+}
+
 a, a:visited {
   color: #000;
   text-decoration: none;
